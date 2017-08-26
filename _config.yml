@@ -1,23 +1,22 @@
-# Welcome to Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Site settings
-title: uzuki.moe
-description: '' # write a nice description for your blog
-baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site http://www.example.com
-# google_analytics: 'UA-XXXXXX-X'
-twitter_username: 'Elpis_ES'
+# Setup
+title:               uzuki.moe
+tagline:             ''
+description:         'testtest'
+url:                 https://uzuki.moe
+baseurl:             ''
+paginate:            5
 
-# Build settings
-markdown: kramdown
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
-permalink: '/:title/'
-
-gems: [jekyll-paginate]
-
-paginate: 10
+# Custom vars
+version:             1.0.0
