@@ -1,10 +1,6 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-#
-gems:
-    [jekyll-paginate]
-
 permalink:           pretty
 
 # Setup
@@ -14,6 +10,7 @@ description:         'testtest'
 url:                 https://uzuki.moe
 baseurl:             ''
 paginate:            5
+gems:                [jekyll-paginate]
 
 # About/contact
 author:
