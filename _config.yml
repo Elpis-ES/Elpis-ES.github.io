@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               uzuki.moe
 tagline:             ''
-description:         'testtest'
+description:         'Elpis Dev Blog'
 url:                 https://uzuki.moe
 baseurl:             ''
 paginate:            5
@@ -14,8 +14,8 @@ gems:                [jekyll-paginate]
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
+  name:              Elpis
+  url:               https://twitter.com/Elpis_ES
   email:             markdotto@gmail.com
 
 # Custom vars
